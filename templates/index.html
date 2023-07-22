@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %}{% endblock %}
+    <title>dataset</title>
+</head>
+<body>
+    <div class="heading">AI-Powered Diabetes Risk Analysis</div>
+    <p id="para">For gender  use 1 for male and 0 for female  in value column</p><br>
+    <!-- <p id="para"> For smoking history use </p> -->
+
+<div class="container">
+
+    <div class="box">
+   <form action='/dignosis' method="POST">
+
+
+    <label>gender </label>
+    <input type="value" name="gender"> <br>
+
+    <label> age</label>
+    <input type="value" name="age"> <br>
+
+    <label> hypertension</label>
+    <input type="value" name="hypertension"> <br>
+
+    <label>heart_disease </label>
+    <input type="value" name="heart_disease"> <br>
+
+    <label>smoking_history </label>
+    <input type="value" name="smoking_history"> <br>
+
+
+    <label> bmi</label>
+    <input type="value" name="bmi"> <br>
+
+    <label> HbA1c_level</label>
+    <input type="value" name="HbA1c_level"> <br>
+
+    <label> blood_glucose_level</label>
+    <input type="value" name="blood_glucose_level"> <br>
+    <input type="submit">
+
+</form>
+
+</div>
+
+<div class="predict">
+<!-- <h2>Predected value is  {{ dignosis }} </h2> -->
+    {{ dignosis }}
+</div>
+
+</div>
+
+
+</body>
+</html>
