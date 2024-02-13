@@ -1,6 +1,5 @@
 # SugarScan-AI-powered-Diabetes-Risk-Prediction
 This repository contains code and data for a diabetes prediction project using machine learning techniques. The project involves predicting whether an individual has diabetes based on various health-related features.
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
