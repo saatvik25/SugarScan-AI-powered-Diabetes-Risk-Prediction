@@ -18,7 +18,6 @@ In this project, we aim to predict the likelihood of diabetes in individuals bas
 ## Getting Started
 
 To get started with this project, follow these steps:
-
 1. Clone this repository to your local machine.
 2. Install the required libraries by running `pip install -r requirements.txt`.
 
