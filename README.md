@@ -16,7 +16,6 @@ This repository contains code and data for a diabetes prediction project using m
 In this project, we aim to predict the likelihood of diabetes in individuals based on their health attributes such as age, gender, hypertension, heart disease, smoking history, BMI, HbA1c level, and blood glucose level. We utilize the K-nearest neighbors (KNN) algorithm for the predictive task.
 
 ## Getting Started
-
 To get started with this project, follow these steps:
 1. Clone this repository to your local machine.
 2. Install the required libraries by running `pip install -r requirements.txt`.
